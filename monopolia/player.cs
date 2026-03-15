@@ -8,8 +8,16 @@ namespace monopolia
 {
     internal class player
     {
-        public int id {  get; set; }
-        public int money {  get; set; }
-        public List<field> fields { get; set; }
+        public int Id {  get; set; }
+        public int Money {  get; set; }
+        public List<field> Fields { get; set; }
+        public int position { get; set; }
+        public player(int id,int money,int pos,List<field> fields)
+        {
+            id = Id;
+            pos = position;
+            money = Money;
+            fields = Fields;
+        }
     }
 }

@@ -110,16 +110,15 @@
             this.btnRollDice = new System.Windows.Forms.Button();
             this.btnBuyProperty = new System.Windows.Forms.Button();
             this.btnEndTurn = new System.Windows.Forms.Button();
-            this.btnTrade = new System.Windows.Forms.Button();
             this.btnBuildHouse = new System.Windows.Forms.Button();
             this.btnSellHouse = new System.Windows.Forms.Button();
-            this.btnMortgage = new System.Windows.Forms.Button();
             this.lblDiceResult = new System.Windows.Forms.Label();
             this.lblDice1 = new System.Windows.Forms.Label();
             this.lblDice2 = new System.Windows.Forms.Label();
             this.lblCurrentPlayer = new System.Windows.Forms.Label();
             this.lblMoney1 = new System.Windows.Forms.Label();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
+            this.zalog = new System.Windows.Forms.Button();
             this.pnlGameBoard.SuspendLayout();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -171,6 +170,7 @@
             this.pnlPlayer2.SuspendLayout();
             this.pnlPlayer3.SuspendLayout();
             this.pnlPlayer4.SuspendLayout();
+            this.pnlControls.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlGameBoard
@@ -890,6 +890,7 @@
             // 
             this.pnlControls.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pnlControls.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlControls.Controls.Add(this.zalog);
             this.pnlControls.Location = new System.Drawing.Point(10, 630);
             this.pnlControls.Name = "pnlControls";
             this.pnlControls.Size = new System.Drawing.Size(230, 132);
@@ -913,6 +914,7 @@
             this.btnBuyProperty.TabIndex = 70;
             this.btnBuyProperty.Text = "Купить";
             this.btnBuyProperty.UseVisualStyleBackColor = true;
+            this.btnBuyProperty.Click += new System.EventHandler(this.btnBuyProperty_Click);
             // 
             // btnEndTurn
             // 
@@ -924,15 +926,6 @@
             this.btnEndTurn.UseVisualStyleBackColor = true;
             this.btnEndTurn.Click += new System.EventHandler(this.btnEndTurn_Click);
             // 
-            // btnTrade
-            // 
-            this.btnTrade.Location = new System.Drawing.Point(130, 680);
-            this.btnTrade.Name = "btnTrade";
-            this.btnTrade.Size = new System.Drawing.Size(105, 30);
-            this.btnTrade.TabIndex = 72;
-            this.btnTrade.Text = "Торговля";
-            this.btnTrade.UseVisualStyleBackColor = true;
-            // 
             // btnBuildHouse
             // 
             this.btnBuildHouse.Location = new System.Drawing.Point(15, 720);
@@ -941,6 +934,7 @@
             this.btnBuildHouse.TabIndex = 73;
             this.btnBuildHouse.Text = "Дом";
             this.btnBuildHouse.UseVisualStyleBackColor = true;
+            this.btnBuildHouse.Click += new System.EventHandler(this.btnBuildHouse_Click);
             // 
             // btnSellHouse
             // 
@@ -950,15 +944,6 @@
             this.btnSellHouse.TabIndex = 74;
             this.btnSellHouse.Text = "Продать";
             this.btnSellHouse.UseVisualStyleBackColor = true;
-            // 
-            // btnMortgage
-            // 
-            this.btnMortgage.Location = new System.Drawing.Point(165, 720);
-            this.btnMortgage.Name = "btnMortgage";
-            this.btnMortgage.Size = new System.Drawing.Size(70, 25);
-            this.btnMortgage.TabIndex = 75;
-            this.btnMortgage.Text = "Залог";
-            this.btnMortgage.UseVisualStyleBackColor = true;
             // 
             // lblDiceResult
             // 
@@ -1014,21 +999,29 @@
             // 
             this.timerGame.Interval = 1000;
             // 
+            // zalog
+            // 
+            this.zalog.Location = new System.Drawing.Point(119, 49);
+            this.zalog.Name = "zalog";
+            this.zalog.Size = new System.Drawing.Size(105, 30);
+            this.zalog.TabIndex = 83;
+            this.zalog.Text = "Залог";
+            this.zalog.UseVisualStyleBackColor = true;
+            this.zalog.Click += new System.EventHandler(this.zalog_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1318, 900);
+            this.ClientSize = new System.Drawing.Size(1297, 749);
             this.Controls.Add(this.pnlBottomInfo);
             this.Controls.Add(this.lblMoney1);
             this.Controls.Add(this.lblCurrentPlayer);
             this.Controls.Add(this.lblDice2);
             this.Controls.Add(this.lblDice1);
             this.Controls.Add(this.lblDiceResult);
-            this.Controls.Add(this.btnMortgage);
             this.Controls.Add(this.btnSellHouse);
             this.Controls.Add(this.btnBuildHouse);
-            this.Controls.Add(this.btnTrade);
             this.Controls.Add(this.btnEndTurn);
             this.Controls.Add(this.btnBuyProperty);
             this.Controls.Add(this.btnRollDice);
@@ -1108,6 +1101,7 @@
             this.pnlPlayer3.PerformLayout();
             this.pnlPlayer4.ResumeLayout(false);
             this.pnlPlayer4.PerformLayout();
+            this.pnlControls.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1141,10 +1135,8 @@
         private System.Windows.Forms.Button btnRollDice;
         private System.Windows.Forms.Button btnBuyProperty;
         private System.Windows.Forms.Button btnEndTurn;
-        private System.Windows.Forms.Button btnTrade;
         private System.Windows.Forms.Button btnBuildHouse;
         private System.Windows.Forms.Button btnSellHouse;
-        private System.Windows.Forms.Button btnMortgage;
 
         // Метки
         private System.Windows.Forms.Label lblDiceResult;
@@ -1221,6 +1213,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button zalog;
     }
 }
 
