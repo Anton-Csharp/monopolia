@@ -10,20 +10,20 @@ namespace monopolia
 {
     internal class field
     {
-        public int id {  get; set; }
+        public int Id {  get; set; }
         public Panel Panel { get; set; }
-        public string name { get; set; }
-        public int countHomes{ get; set; }
-        public int price {  get; set; }
+        public string Name { get; set; }
+        public int CountHomes{ get; set; }
+        public int Price {  get; set; }
         public string Type { get; set; }
         public int Income { get; set; } 
         public field(int id, Panel panel, string name, int countHomes, int price, string type, int income)
         {
-            this.id=id;
+            this.Id=id;
             Panel=panel;
-            this.name=name;
-            this.countHomes=countHomes;
-            this.price=price;
+            this.Name=name;
+            this.CountHomes=countHomes;
+            this.Price=price;
             Type=type;
             Income=income;
         }
@@ -32,35 +32,35 @@ namespace monopolia
         {
             if (Type == "brown")
             {
-                return Income+500*countHomes;
+                return Income+500*CountHomes;
             }
             if (Type == "pink")
             {
-                return Income+700*countHomes;
+                return Income+700*CountHomes;
             }
             if (Type == "blue")
             {
-                return Income+850*countHomes;
+                return Income+850*CountHomes;
             }
             if (Type == "chocolate")
             {
-                return Income+1000*countHomes;
+                return Income+1000*CountHomes;
             }
             if (Type == "red")
             {
-                return Income+1100*countHomes;
+                return Income+1100*CountHomes;
             }
             if (Type == "yellow")
             {
-                return Income+1300*countHomes;
+                return Income+1300*CountHomes;
             }
             if (Type == "green")
             {
-                return Income+1500*countHomes;
+                return Income+1500*CountHomes;
             }
             if (Type == "dark blue")
             {
-                return Income+1750*countHomes;
+                return Income+1750*CountHomes;
             }
             if (Type == "аэропорт")
             {
