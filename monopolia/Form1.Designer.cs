@@ -30,62 +30,87 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlGameBoard = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel17 = new System.Windows.Forms.Panel();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.label25 = new System.Windows.Forms.Label();
             this.panel23 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel28 = new System.Windows.Forms.Panel();
+            this.label32 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.panel25 = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.panel26 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel27 = new System.Windows.Forms.Panel();
+            this.label31 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.lblFreeParking = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel18 = new System.Windows.Forms.Panel();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.label27 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
             this.lblGoToJail = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblJail = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.panel29 = new System.Windows.Forms.Panel();
             this.pnlToken4 = new System.Windows.Forms.Panel();
             this.pnlToken2 = new System.Windows.Forms.Panel();
             this.pnlToken3 = new System.Windows.Forms.Panel();
@@ -95,6 +120,10 @@
             this.pnlBottomInfo = new System.Windows.Forms.Panel();
             this.pnlLeftInfo = new System.Windows.Forms.Panel();
             this.pnlRightInfo = new System.Windows.Forms.Panel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.pnlPlayer1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlPlayer2 = new System.Windows.Forms.Panel();
@@ -112,18 +141,15 @@
             this.btnBuyProperty = new System.Windows.Forms.Button();
             this.btnEndTurn = new System.Windows.Forms.Button();
             this.btnBuildHouse = new System.Windows.Forms.Button();
-            this.btnSellHouse = new System.Windows.Forms.Button();
             this.lblDiceResult = new System.Windows.Forms.Label();
             this.lblDice1 = new System.Windows.Forms.Label();
             this.lblDice2 = new System.Windows.Forms.Label();
             this.lblCurrentPlayer = new System.Windows.Forms.Label();
             this.lblMoney1 = new System.Windows.Forms.Label();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
             this.pnlGameBoard.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel23.SuspendLayout();
@@ -167,9 +193,8 @@
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            this.pnlRightInfo.SuspendLayout();
             this.pnlPlayer1.SuspendLayout();
             this.pnlPlayer2.SuspendLayout();
             this.pnlPlayer3.SuspendLayout();
@@ -181,6 +206,7 @@
             // 
             this.pnlGameBoard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.pnlGameBoard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlGameBoard.Controls.Add(this.panel2);
             this.pnlGameBoard.Controls.Add(this.panel17);
             this.pnlGameBoard.Controls.Add(this.panel23);
             this.pnlGameBoard.Controls.Add(this.panel9);
@@ -207,17 +233,48 @@
             this.pnlGameBoard.Controls.Add(this.panel5);
             this.pnlGameBoard.Controls.Add(this.panel4);
             this.pnlGameBoard.Controls.Add(this.panel3);
-            this.pnlGameBoard.Controls.Add(this.panel2);
             this.pnlGameBoard.Controls.Add(this.panel1);
-            this.pnlGameBoard.Location = new System.Drawing.Point(250, 100);
+            this.pnlGameBoard.Location = new System.Drawing.Point(249, 100);
             this.pnlGameBoard.Name = "pnlGameBoard";
             this.pnlGameBoard.Size = new System.Drawing.Size(867, 662);
             this.pnlGameBoard.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.ForeColor = System.Drawing.Color.Transparent;
+            this.panel2.Location = new System.Drawing.Point(5, 495);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(101, 74);
+            this.panel2.TabIndex = 1;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(3, 44);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(93, 13);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "Санкт-Петербург";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Maroon;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(101, 28);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.White;
             this.panel17.Controls.Add(this.pictureBox12);
+            this.panel17.Controls.Add(this.label25);
             this.panel17.Location = new System.Drawing.Point(754, 170);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(101, 74);
@@ -232,14 +289,33 @@
             this.pictureBox12.TabIndex = 5;
             this.pictureBox12.TabStop = false;
             // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(28, 53);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(44, 13);
+            this.label25.TabIndex = 117;
+            this.label25.Text = "Рязань";
+            // 
             // panel23
             // 
             this.panel23.BackColor = System.Drawing.Color.White;
+            this.panel23.Controls.Add(this.label29);
             this.panel23.Controls.Add(this.pictureBox15);
             this.panel23.Location = new System.Drawing.Point(647, 579);
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(101, 74);
             this.panel23.TabIndex = 14;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(28, 55);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(42, 13);
+            this.label29.TabIndex = 121;
+            this.label29.Text = "Курган";
             // 
             // pictureBox15
             // 
@@ -254,6 +330,7 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
             this.panel9.Controls.Add(this.pictureBox5);
+            this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(112, 9);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(101, 74);
@@ -267,6 +344,15 @@
             this.pictureBox5.Size = new System.Drawing.Size(101, 28);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(20, 54);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(63, 13);
+            this.label18.TabIndex = 110;
+            this.label18.Text = "Челябинск";
             // 
             // panel24
             // 
@@ -290,11 +376,21 @@
             // panel28
             // 
             this.panel28.BackColor = System.Drawing.Color.White;
+            this.panel28.Controls.Add(this.label32);
             this.panel28.Controls.Add(this.pictureBox18);
             this.panel28.Location = new System.Drawing.Point(112, 579);
             this.panel28.Name = "panel28";
             this.panel28.Size = new System.Drawing.Size(101, 74);
             this.panel28.TabIndex = 13;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(13, 53);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(77, 13);
+            this.label32.TabIndex = 8;
+            this.label32.Text = "Екатеринбург";
             // 
             // pictureBox18
             // 
@@ -308,11 +404,21 @@
             // panel25
             // 
             this.panel25.BackColor = System.Drawing.Color.White;
+            this.panel25.Controls.Add(this.label30);
             this.panel25.Controls.Add(this.pictureBox14);
             this.panel25.Location = new System.Drawing.Point(433, 579);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(101, 74);
             this.panel25.TabIndex = 10;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(29, 55);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(40, 13);
+            this.label30.TabIndex = 6;
+            this.label30.Text = "Сургут";
             // 
             // pictureBox14
             // 
@@ -326,11 +432,21 @@
             // panel26
             // 
             this.panel26.BackColor = System.Drawing.Color.White;
+            this.panel26.Controls.Add(this.label36);
             this.panel26.Controls.Add(this.label10);
             this.panel26.Location = new System.Drawing.Point(326, 579);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(101, 74);
             this.panel26.TabIndex = 11;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(11, 55);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(77, 13);
+            this.label36.TabIndex = 7;
+            this.label36.Text = "Шереметьево";
             // 
             // label10
             // 
@@ -345,11 +461,21 @@
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.White;
+            this.panel27.Controls.Add(this.label31);
             this.panel27.Controls.Add(this.pictureBox6);
             this.panel27.Location = new System.Drawing.Point(219, 579);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(101, 74);
             this.panel27.TabIndex = 12;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(26, 55);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(41, 13);
+            this.label31.TabIndex = 7;
+            this.label31.Text = "Пермь";
             // 
             // pictureBox6
             // 
@@ -363,11 +489,21 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.White;
+            this.panel16.Controls.Add(this.label24);
             this.panel16.Controls.Add(this.pictureBox13);
             this.panel16.Location = new System.Drawing.Point(754, 89);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(101, 74);
             this.panel16.TabIndex = 2;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(28, 55);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(46, 13);
+            this.label24.TabIndex = 116;
+            this.label24.Text = "Москва";
             // 
             // pictureBox13
             // 
@@ -400,11 +536,21 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.White;
+            this.panel14.Controls.Add(this.label23);
             this.panel14.Controls.Add(this.pictureBox10);
             this.panel14.Location = new System.Drawing.Point(647, 9);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(101, 74);
             this.panel14.TabIndex = 2;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(21, 54);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(65, 13);
+            this.label23.TabIndex = 115;
+            this.label23.Text = "Сыктывкар";
             // 
             // pictureBox10
             // 
@@ -419,6 +565,7 @@
             // 
             this.panel18.BackColor = System.Drawing.Color.White;
             this.panel18.Controls.Add(this.pictureBox11);
+            this.panel18.Controls.Add(this.label26);
             this.panel18.Location = new System.Drawing.Point(754, 250);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(101, 74);
@@ -433,14 +580,33 @@
             this.pictureBox11.TabIndex = 4;
             this.pictureBox11.TabStop = false;
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(15, 55);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(72, 13);
+            this.label26.TabIndex = 118;
+            this.label26.Text = "Архангельск";
+            // 
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.White;
+            this.panel19.Controls.Add(this.label13);
             this.panel19.Controls.Add(this.label11);
             this.panel19.Location = new System.Drawing.Point(754, 330);
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(101, 74);
             this.panel19.TabIndex = 5;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(24, 58);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(56, 13);
+            this.label13.TabIndex = 120;
+            this.label13.Text = "Кольцово";
             // 
             // label11
             // 
@@ -456,6 +622,7 @@
             // 
             this.panel20.BackColor = System.Drawing.Color.White;
             this.panel20.Controls.Add(this.pictureBox17);
+            this.panel20.Controls.Add(this.label27);
             this.panel20.Location = new System.Drawing.Point(754, 410);
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(101, 74);
@@ -469,6 +636,15 @@
             this.pictureBox17.Size = new System.Drawing.Size(101, 28);
             this.pictureBox17.TabIndex = 8;
             this.pictureBox17.TabStop = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(27, 56);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(51, 13);
+            this.label27.TabIndex = 119;
+            this.label27.Text = "Обнинск";
             // 
             // panel10
             // 
@@ -493,6 +669,7 @@
             // 
             this.panel21.BackColor = System.Drawing.Color.White;
             this.panel21.Controls.Add(this.pictureBox16);
+            this.panel21.Controls.Add(this.label28);
             this.panel21.Location = new System.Drawing.Point(754, 495);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(101, 74);
@@ -507,10 +684,20 @@
             this.pictureBox16.TabIndex = 7;
             this.pictureBox16.TabStop = false;
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(17, 56);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(75, 13);
+            this.label28.TabIndex = 120;
+            this.label28.Text = "Новосибирск";
+            // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.White;
             this.panel11.Controls.Add(this.pictureBox7);
+            this.panel11.Controls.Add(this.label19);
             this.panel11.Location = new System.Drawing.Point(326, 9);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(101, 74);
@@ -524,6 +711,15 @@
             this.pictureBox7.Size = new System.Drawing.Size(101, 28);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(24, 54);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(49, 13);
+            this.label19.TabIndex = 111;
+            this.label19.Text = "Барнаул";
             // 
             // panel22
             // 
@@ -548,6 +744,7 @@
             // 
             this.panel12.BackColor = System.Drawing.Color.White;
             this.panel12.Controls.Add(this.label9);
+            this.panel12.Controls.Add(this.label21);
             this.panel12.Location = new System.Drawing.Point(433, 9);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(101, 74);
@@ -563,10 +760,20 @@
             this.label9.TabIndex = 105;
             this.label9.Text = "АЭРОПОРТ";
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(29, 52);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(50, 13);
+            this.label21.TabIndex = 113;
+            this.label21.Text = "Пулково";
+            // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.White;
             this.panel13.Controls.Add(this.pictureBox3);
+            this.panel13.Controls.Add(this.label22);
             this.panel13.Location = new System.Drawing.Point(540, 9);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(101, 74);
@@ -580,6 +787,15 @@
             this.pictureBox3.Size = new System.Drawing.Size(101, 28);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(29, 52);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(52, 13);
+            this.label22.TabIndex = 114;
+            this.label22.Text = "Воронеж";
             // 
             // panel8
             // 
@@ -604,6 +820,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
             this.panel7.Controls.Add(this.pictureBox4);
+            this.panel7.Controls.Add(this.label17);
             this.panel7.Location = new System.Drawing.Point(5, 89);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(101, 74);
@@ -618,10 +835,20 @@
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(26, 55);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(39, 13);
+            this.label17.TabIndex = 109;
+            this.label17.Text = "Пенза";
+            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
             this.panel6.Controls.Add(this.pictureBox8);
+            this.panel6.Controls.Add(this.label16);
             this.panel6.Location = new System.Drawing.Point(5, 170);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(101, 74);
@@ -636,10 +863,20 @@
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(19, 57);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(65, 13);
+            this.label16.TabIndex = 108;
+            this.label16.Text = "Чебоксары";
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.pictureBox9);
+            this.panel5.Controls.Add(this.label15);
             this.panel5.Location = new System.Drawing.Point(5, 250);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(101, 74);
@@ -654,10 +891,20 @@
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(27, 55);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(46, 13);
+            this.label15.TabIndex = 107;
+            this.label15.Text = "Самара";
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Controls.Add(this.label14);
             this.panel4.Location = new System.Drawing.Point(5, 330);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(101, 74);
@@ -671,6 +918,15 @@
             this.pictureBox2.Size = new System.Drawing.Size(101, 28);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(16, 58);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(68, 13);
+            this.label14.TabIndex = 106;
+            this.label14.Text = "Красноярск";
             // 
             // panel3
             // 
@@ -701,25 +957,6 @@
             this.label7.TabIndex = 103;
             this.label7.Text = "НАЛОГ";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.ForeColor = System.Drawing.Color.Transparent;
-            this.panel2.Location = new System.Drawing.Point(5, 495);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(101, 74);
-            this.panel2.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Maroon;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(101, 28);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -737,6 +974,38 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(101, 74);
             this.panel1.TabIndex = 0;
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.Color.White;
+            this.panel30.Location = new System.Drawing.Point(33, 8);
+            this.panel30.Name = "panel30";
+            this.panel30.Size = new System.Drawing.Size(15, 15);
+            this.panel30.TabIndex = 52;
+            // 
+            // panel31
+            // 
+            this.panel31.BackColor = System.Drawing.Color.White;
+            this.panel31.Location = new System.Drawing.Point(52, 8);
+            this.panel31.Name = "panel31";
+            this.panel31.Size = new System.Drawing.Size(15, 15);
+            this.panel31.TabIndex = 52;
+            // 
+            // panel32
+            // 
+            this.panel32.BackColor = System.Drawing.Color.White;
+            this.panel32.Location = new System.Drawing.Point(73, 8);
+            this.panel32.Name = "panel32";
+            this.panel32.Size = new System.Drawing.Size(15, 15);
+            this.panel32.TabIndex = 52;
+            // 
+            // panel29
+            // 
+            this.panel29.BackColor = System.Drawing.Color.White;
+            this.panel29.Location = new System.Drawing.Point(12, 8);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(15, 15);
+            this.panel29.TabIndex = 51;
             // 
             // pnlToken4
             // 
@@ -812,10 +1081,50 @@
             // 
             this.pnlRightInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pnlRightInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlRightInfo.Controls.Add(this.label35);
+            this.pnlRightInfo.Controls.Add(this.label34);
+            this.pnlRightInfo.Controls.Add(this.label33);
+            this.pnlRightInfo.Controls.Add(this.label20);
             this.pnlRightInfo.Location = new System.Drawing.Point(1123, 100);
             this.pnlRightInfo.Name = "pnlRightInfo";
             this.pnlRightInfo.Size = new System.Drawing.Size(192, 662);
             this.pnlRightInfo.TabIndex = 63;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(10, 89);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(56, 13);
+            this.label35.TabIndex = 3;
+            this.label35.Text = "Прибыль:";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(10, 70);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(36, 13);
+            this.label34.TabIndex = 2;
+            this.label34.Text = "Цена:";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(10, 49);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(79, 13);
+            this.label33.TabIndex = 1;
+            this.label33.Text = "Кол-во домов:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(10, 24);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Название:";
             // 
             // pnlPlayer1
             // 
@@ -861,9 +1170,9 @@
             this.lblMoney2.AutoSize = true;
             this.lblMoney2.Location = new System.Drawing.Point(4, 30);
             this.lblMoney2.Name = "lblMoney2";
-            this.lblMoney2.Size = new System.Drawing.Size(87, 13);
+            this.lblMoney2.Size = new System.Drawing.Size(81, 13);
             this.lblMoney2.TabIndex = 83;
-            this.lblMoney2.Text = "Деньги: 15000$";
+            this.lblMoney2.Text = "Деньги: 15000";
             // 
             // pnlPlayer3
             // 
@@ -890,9 +1199,9 @@
             this.lblMoney3.AutoSize = true;
             this.lblMoney3.Location = new System.Drawing.Point(4, 23);
             this.lblMoney3.Name = "lblMoney3";
-            this.lblMoney3.Size = new System.Drawing.Size(87, 13);
+            this.lblMoney3.Size = new System.Drawing.Size(81, 13);
             this.lblMoney3.TabIndex = 84;
-            this.lblMoney3.Text = "Деньги: 15000$";
+            this.lblMoney3.Text = "Деньги: 15000";
             // 
             // pnlPlayer4
             // 
@@ -919,9 +1228,9 @@
             this.lblMoney4.AutoSize = true;
             this.lblMoney4.Location = new System.Drawing.Point(4, 32);
             this.lblMoney4.Name = "lblMoney4";
-            this.lblMoney4.Size = new System.Drawing.Size(87, 13);
+            this.lblMoney4.Size = new System.Drawing.Size(81, 13);
             this.lblMoney4.TabIndex = 85;
-            this.lblMoney4.Text = "Деньги: 15000$";
+            this.lblMoney4.Text = "Деньги: 15000";
             // 
             // pnlControls
             // 
@@ -983,15 +1292,6 @@
             this.btnBuildHouse.UseVisualStyleBackColor = true;
             this.btnBuildHouse.Click += new System.EventHandler(this.btnBuildHouse_Click);
             // 
-            // btnSellHouse
-            // 
-            this.btnSellHouse.Location = new System.Drawing.Point(90, 720);
-            this.btnSellHouse.Name = "btnSellHouse";
-            this.btnSellHouse.Size = new System.Drawing.Size(70, 25);
-            this.btnSellHouse.TabIndex = 74;
-            this.btnSellHouse.Text = "Продать";
-            this.btnSellHouse.UseVisualStyleBackColor = true;
-            // 
             // lblDiceResult
             // 
             this.lblDiceResult.AutoSize = true;
@@ -1038,58 +1338,25 @@
             this.lblMoney1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.lblMoney1.Location = new System.Drawing.Point(15, 150);
             this.lblMoney1.Name = "lblMoney1";
-            this.lblMoney1.Size = new System.Drawing.Size(87, 13);
+            this.lblMoney1.Size = new System.Drawing.Size(81, 13);
             this.lblMoney1.TabIndex = 82;
-            this.lblMoney1.Text = "Деньги: 15000$";
+            this.lblMoney1.Text = "Деньги: 15000";
             // 
             // timerGame
             // 
             this.timerGame.Interval = 1000;
             // 
-            // panel29
-            // 
-            this.panel29.BackColor = System.Drawing.Color.White;
-            this.panel29.Location = new System.Drawing.Point(12, 8);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(15, 15);
-            this.panel29.TabIndex = 51;
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.White;
-            this.panel30.Location = new System.Drawing.Point(33, 8);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(15, 15);
-            this.panel30.TabIndex = 52;
-            // 
-            // panel31
-            // 
-            this.panel31.BackColor = System.Drawing.Color.White;
-            this.panel31.Location = new System.Drawing.Point(52, 8);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(15, 15);
-            this.panel31.TabIndex = 52;
-            // 
-            // panel32
-            // 
-            this.panel32.BackColor = System.Drawing.Color.White;
-            this.panel32.Location = new System.Drawing.Point(73, 8);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(15, 15);
-            this.panel32.TabIndex = 52;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1297, 802);
+            this.ClientSize = new System.Drawing.Size(1297, 829);
             this.Controls.Add(this.pnlBottomInfo);
             this.Controls.Add(this.lblMoney1);
             this.Controls.Add(this.lblCurrentPlayer);
             this.Controls.Add(this.lblDice2);
             this.Controls.Add(this.lblDice1);
             this.Controls.Add(this.lblDiceResult);
-            this.Controls.Add(this.btnSellHouse);
             this.Controls.Add(this.btnBuildHouse);
             this.Controls.Add(this.btnEndTurn);
             this.Controls.Add(this.btnBuyProperty);
@@ -1106,62 +1373,82 @@
             this.Name = "Form1";
             this.Text = "Монополия - Классическая версия";
             this.pnlGameBoard.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel24.ResumeLayout(false);
             this.panel24.PerformLayout();
             this.panel28.ResumeLayout(false);
+            this.panel28.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.panel26.ResumeLayout(false);
             this.panel26.PerformLayout();
             this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel16.ResumeLayout(false);
+            this.panel16.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.panel19.ResumeLayout(false);
             this.panel19.PerformLayout();
             this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel22.ResumeLayout(false);
             this.panel22.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.pnlRightInfo.ResumeLayout(false);
+            this.pnlRightInfo.PerformLayout();
             this.pnlPlayer1.ResumeLayout(false);
             this.pnlPlayer1.PerformLayout();
             this.pnlPlayer2.ResumeLayout(false);
@@ -1205,7 +1492,6 @@
         private System.Windows.Forms.Button btnBuyProperty;
         private System.Windows.Forms.Button btnEndTurn;
         private System.Windows.Forms.Button btnBuildHouse;
-        private System.Windows.Forms.Button btnSellHouse;
 
         // Метки
         private System.Windows.Forms.Label lblDiceResult;
@@ -1287,6 +1573,31 @@
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel32;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label36;
     }
 }
 

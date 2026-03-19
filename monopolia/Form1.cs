@@ -28,34 +28,34 @@ namespace monopolia
             Players.Add(new player(2, 15000, 0, pl2));
             Players.Add(new player(3, 15000, 0, pl3));
             Players.Add(new player(4, 15000, 0, pl4));
-            GameField.Add(new field(1,panel1,"Старт",0,0,"start",0));
-            GameField.Add(new field(2, panel2, "", 0, 400, "brown", 50));
-            GameField.Add(new field(3, panel3, "", 0, 0, "налог", 0));
-            GameField.Add(new field(4, panel4, "", 0,600, "brown", 60));
-            GameField.Add(new field(5, panel5, "", 0, 900, "pink", 70));
-            GameField.Add(new field(6, panel6, "", 0, 1100, "pink", 75));
-            GameField.Add(new field(7, panel7, "", 0, 1200 ,"pink", 80));
-            GameField.Add(new field(8, panel8, "", 0, 0, "jail", 0));
-            GameField.Add(new field(9, panel9, "", 0, 1300, "blue", 90));
-            GameField.Add(new field(10, panel10, "", 0, 0, "шанс", 0));
-            GameField.Add(new field(11, panel11, "", 0, 1500, "blue", 100));
-            GameField.Add(new field(12, panel12, "", 0, 2000, "аэропорт", 500));
-            GameField.Add(new field(13, panel13, "", 0, 1700, "chocolate", 115));
-            GameField.Add(new field(14, panel14, "", 0, 1800, "chocolate", 120));
-            GameField.Add(new field(15, panel15, "", 0, 0, "парковка", 0));
-            GameField.Add(new field(16, panel16, "", 0, 2000, "red", 140));
-            GameField.Add(new field(17, panel17, "", 0, 2200, "red", 150));
-            GameField.Add(new field(18, panel18, "", 0, 2400, "red", 170));
-            GameField.Add(new field(19, panel19, "", 0, 2000, "аэропорт", 500));
-            GameField.Add(new field(20, panel20, "", 0, 2500, "yellow", 200));
-            GameField.Add(new field(21, panel21, "", 0, 2800, "yellow", 210));
-            GameField.Add(new field(22, panel22, "", 0, 0, "jail", 0));
-            GameField.Add(new field(23, panel23, "", 0, 3100, "green", 250));
-            GameField.Add(new field(24, panel24, "", 0, 0, "шанс", 0));
-            GameField.Add(new field(25, panel25, "", 0,3400, "green", 280));
-            GameField.Add(new field(26, panel26, "", 0, 2000, "аэропорт", 500));
-            GameField.Add(new field(27, panel27, "", 0, 4000, "dark blue", 420));
-            GameField.Add(new field(28, panel28, "", 0, 4400, "dark blue", 460));
+            GameField.Add(new field(0,panel1,"Старт",0,0,"start",0));
+            GameField.Add(new field(1, panel2, "Санкт-Петербург", 0, 400, "brown", 50));
+            GameField.Add(new field(2, panel3, "НАЛОГ", 0, 0, "налог", 0));
+            GameField.Add(new field(3, panel4, "Красноярск", 0,600, "brown", 60));
+            GameField.Add(new field(4, panel5, "Самара", 0, 900, "pink", 70));
+            GameField.Add(new field(5, panel6, "Чебоксары", 0, 1100, "pink", 75));
+            GameField.Add(new field(6, panel7, "Пенза", 0, 1200 ,"pink", 80));
+            GameField.Add(new field(7, panel8, "ТЮРЬМА", 0, 0, "jail", 0));
+            GameField.Add(new field(8, panel9, "Челябинск", 0, 1300, "blue", 90));
+            GameField.Add(new field(9, panel10, "ШАНС", 0, 0, "шанс", 0));
+            GameField.Add(new field(10, panel11, "Барнаул", 0, 1500, "blue", 100));
+            GameField.Add(new field(11, panel12, "Пулково", 0, 2000, "аэропорт", 500));
+            GameField.Add(new field(12, panel13, "Воронеж", 0, 1700, "chocolate", 115));
+            GameField.Add(new field(13, panel14, "Сыктывкар", 0, 1800, "chocolate", 120));
+            GameField.Add(new field(14, panel15, "БЕСПЛ. ПАРКОВКА", 0, 0, "парковка", 0));
+            GameField.Add(new field(15, panel16, "Москва", 0, 2000, "red", 140));
+            GameField.Add(new field(16, panel17, "Рязань", 0, 2200, "red", 150));
+            GameField.Add(new field(17, panel18, "Архангельск", 0, 2400, "red", 170));
+            GameField.Add(new field(18, panel19, "Кольцово", 0, 2000, "аэропорт", 500));
+            GameField.Add(new field(19, panel20, "Обнинск", 0, 2500, "yellow", 200));
+            GameField.Add(new field(20, panel21, "Новосибирск", 0, 2800, "yellow", 210));
+            GameField.Add(new field(21, panel22, "В ТЮРЬМУ", 0, 0, "jail", 0));
+            GameField.Add(new field(22, panel23, "Курган", 0, 3100, "green", 250));
+            GameField.Add(new field(23, panel24, "ШАНС", 0, 0, "шанс", 0));
+            GameField.Add(new field(24, panel25, "Сургут", 0,3400, "green", 280));
+            GameField.Add(new field(25, panel26, "Шереметьево", 0, 2000, "аэропорт", 500));
+            GameField.Add(new field(26, panel27, "Пермь", 0, 4000, "dark blue", 420));
+            GameField.Add(new field(27, panel28, "Екатеринбург", 0, 4400, "dark blue", 460));
           
 
 
@@ -68,8 +68,8 @@ namespace monopolia
         private void btnRollDice_Click(object sender, EventArgs e)
         {
             int crpl = currentPlayer - 1;
-            cube1 = rand.Next(1,7);
-            cube2 = rand.Next(1,7);
+            cube1 = rand.Next(1, 7);
+            cube2 = rand.Next(1, 7);
             lblDice1.Text = "Кубик 1: " + cube1;
             lblDice2.Text = "Кубик 2: " + cube2;
             result = cube2 + cube1;
@@ -84,6 +84,11 @@ namespace monopolia
                 lblMoney3.Text ="Деньги: "+ Players[2].Money;
                 lblMoney4.Text ="Деньги: "+ Players[3].Money;
             }
+            label20.Text = "Название: " +GameField[Players[crpl].position].Name;
+            label33.Text = "Кол-во домов: " +GameField[Players[crpl].position].CountHomes;
+            label34.Text = "Цена: " +GameField[Players[crpl].position].Price;
+            label35.Text = "Прибыль: " +GameField[Players[crpl].position].Income;
+
             if (currentPlayer == 1)
             {
                 GameField[Players[crpl].position].Panel.Controls.Add(pnlToken1);
@@ -99,6 +104,19 @@ namespace monopolia
             if (currentPlayer == 4)
             {
                 GameField[Players[crpl].position].Panel.Controls.Add(pnlToken4);
+            }
+            if (Players[crpl].position == GameField[2].Id)
+            {
+                Players[crpl].Money-= 1000;
+                lblMoney1.Text ="Деньги: "+ Players[0].Money;
+                lblMoney2.Text ="Деньги: "+ Players[1].Money;
+                lblMoney3.Text ="Деньги: "+ Players[2].Money;
+                lblMoney4.Text ="Деньги: "+ Players[3].Money;
+            }
+            if (Players[crpl].position == GameField[21].Id)
+            {
+                Players[crpl].position = 7;
+                
             }
             GameField[Players[crpl].position].CheckedClassField();
         }
@@ -121,8 +139,28 @@ namespace monopolia
         private void btnBuyProperty_Click(object sender, EventArgs e)
         {
             int crpl = currentPlayer - 1;
-            Players[crpl].Money -= GameField[Players[crpl].position].Price;
-            Players[crpl].Fields.Add(GameField[Players[crpl].position]);
+            int i = Players[crpl].Fields.Count;
+            if (Players[crpl].Fields.Find(x => x.Id == Players[crpl].position)!= null)
+            {
+                MessageBox.Show("У вас уже есть это поле");
+               
+            }
+            else
+            {
+                if (Players[crpl].Money>0)
+                {
+                    Players[crpl].Money -= GameField[Players[crpl].position].Price;
+                    Players[crpl].Fields.Add(GameField[Players[crpl].position]);
+                }
+                else
+                {
+                    MessageBox.Show("Вы проиграли");
+                    
+                }
+
+                    MessageBox.Show("Вы купили: " +  GameField[Players[crpl].position].Name);
+            }
+
             lblMoney1.Text ="Деньги: "+ Players[0].Money;
             lblMoney2.Text ="Деньги: "+ Players[1].Money;
             lblMoney3.Text ="Деньги: "+ Players[2].Money;
@@ -146,7 +184,18 @@ namespace monopolia
 
         private void zalog_Click(object sender, EventArgs e)
         {
-
+            int crpl = currentPlayer--;
+            if (Players[crpl].Fields.Find(x => x.Id == Players[crpl].position)!= null)
+            {
+                Players[crpl].Money += Players[crpl].Fields.Find(x => x.Id == Players[crpl].position).Price/2;
+                lblMoney1.Text ="Деньги: "+ Players[0].Money;
+                lblMoney2.Text ="Деньги: "+ Players[1].Money;
+                lblMoney3.Text ="Деньги: "+ Players[2].Money;
+                lblMoney4.Text ="Деньги: "+ Players[3].Money;
+            }
+            
         }
+
+        
     }
 }
