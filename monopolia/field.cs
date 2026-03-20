@@ -11,15 +11,17 @@ namespace monopolia
     internal class field
     {
         public int Id {  get; set; }
+        public player Owner { get; set; }
         public Panel Panel { get; set; }
         public string Name { get; set; }
         public int CountHomes{ get; set; }
         public int Price {  get; set; }
         public string Type { get; set; }
         public int Income { get; set; } 
-        public field(int id, Panel panel, string name, int countHomes, int price, string type, int income)
+        public field(int id,player pl, Panel panel, string name, int countHomes, int price, string type, int income)
         {
             this.Id=id;
+            Owner = pl;
             Panel=panel;
             this.Name=name;
             this.CountHomes=countHomes;

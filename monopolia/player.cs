@@ -10,6 +10,8 @@ namespace monopolia
     {
         public int Id {  get; set; } 
         public int Money { get; set; } 
+        public bool InJail {  get; set; }
+        public bool isBunk {  get; set; }
         public List<field> Fields{ get; set; }= new List<field>();
         public int position { get; set; } = 0;
         public player(int id,int money,int pos,List<field> fields)
