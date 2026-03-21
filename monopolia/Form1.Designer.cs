@@ -92,14 +92,14 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.lblJail = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -107,19 +107,17 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.homeP = new System.Windows.Forms.Panel();
             this.pnlToken4 = new System.Windows.Forms.Panel();
             this.pnlToken2 = new System.Windows.Forms.Panel();
             this.pnlToken3 = new System.Windows.Forms.Panel();
             this.pnlToken1 = new System.Windows.Forms.Panel();
             this.lblStart = new System.Windows.Forms.Label();
             this.pnlTopInfo = new System.Windows.Forms.Panel();
+            this.lblDice1 = new System.Windows.Forms.Label();
             this.pnlBottomInfo = new System.Windows.Forms.Panel();
             this.pnlLeftInfo = new System.Windows.Forms.Panel();
             this.pnlRightInfo = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -139,11 +137,9 @@
             this.btnRollDice = new System.Windows.Forms.Button();
             this.btnBuyProperty = new System.Windows.Forms.Button();
             this.btnEndTurn = new System.Windows.Forms.Button();
-            this.lblDice1 = new System.Windows.Forms.Label();
             this.lblCurrentPlayer = new System.Windows.Forms.Label();
             this.lblMoney1 = new System.Windows.Forms.Label();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
-            this.label33 = new System.Windows.Forms.Label();
             this.pnlGameBoard.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -824,15 +820,6 @@
             this.panel7.Size = new System.Drawing.Size(101, 74);
             this.panel7.TabIndex = 1;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(101, 28);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -841,6 +828,15 @@
             this.label17.Size = new System.Drawing.Size(39, 13);
             this.label17.TabIndex = 109;
             this.label17.Text = "Пенза";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(101, 28);
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
             // 
             // panel6
             // 
@@ -852,15 +848,6 @@
             this.panel6.Size = new System.Drawing.Size(101, 74);
             this.panel6.TabIndex = 1;
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(101, 28);
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -869,6 +856,15 @@
             this.label16.Size = new System.Drawing.Size(65, 13);
             this.label16.TabIndex = 108;
             this.label16.Text = "Чебоксары";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(101, 28);
+            this.pictureBox8.TabIndex = 7;
+            this.pictureBox8.TabStop = false;
             // 
             // panel5
             // 
@@ -880,15 +876,6 @@
             this.panel5.Size = new System.Drawing.Size(101, 74);
             this.panel5.TabIndex = 1;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox9.Location = new System.Drawing.Point(1, 0);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(101, 28);
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -897,6 +884,15 @@
             this.label15.Size = new System.Drawing.Size(46, 13);
             this.label15.TabIndex = 107;
             this.label15.Text = "Самара";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pictureBox9.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(101, 28);
+            this.pictureBox9.TabIndex = 8;
+            this.pictureBox9.TabStop = false;
             // 
             // panel4
             // 
@@ -958,10 +954,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.homeP);
-            this.panel1.Controls.Add(this.panel30);
-            this.panel1.Controls.Add(this.panel31);
-            this.panel1.Controls.Add(this.panel32);
             this.panel1.Controls.Add(this.pnlToken4);
             this.panel1.Controls.Add(this.pnlToken2);
             this.panel1.Controls.Add(this.pnlToken3);
@@ -972,38 +964,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(101, 74);
             this.panel1.TabIndex = 0;
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.White;
-            this.panel30.Location = new System.Drawing.Point(33, 8);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(15, 15);
-            this.panel30.TabIndex = 52;
-            // 
-            // panel31
-            // 
-            this.panel31.BackColor = System.Drawing.Color.White;
-            this.panel31.Location = new System.Drawing.Point(52, 8);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(15, 15);
-            this.panel31.TabIndex = 52;
-            // 
-            // panel32
-            // 
-            this.panel32.BackColor = System.Drawing.Color.White;
-            this.panel32.Location = new System.Drawing.Point(73, 8);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(15, 15);
-            this.panel32.TabIndex = 52;
-            // 
-            // homeP
-            // 
-            this.homeP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.homeP.Location = new System.Drawing.Point(7, 8);
-            this.homeP.Name = "homeP";
-            this.homeP.Size = new System.Drawing.Size(15, 15);
-            this.homeP.TabIndex = 51;
             // 
             // pnlToken4
             // 
@@ -1058,6 +1018,17 @@
             this.pnlTopInfo.Size = new System.Drawing.Size(900, 100);
             this.pnlTopInfo.TabIndex = 60;
             // 
+            // lblDice1
+            // 
+            this.lblDice1.AutoSize = true;
+            this.lblDice1.BackColor = System.Drawing.SystemColors.Control;
+            this.lblDice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblDice1.Location = new System.Drawing.Point(8, 19);
+            this.lblDice1.Name = "lblDice1";
+            this.lblDice1.Size = new System.Drawing.Size(67, 16);
+            this.lblDice1.TabIndex = 79;
+            this.lblDice1.Text = "Кубик: 0";
+            // 
             // pnlBottomInfo
             // 
             this.pnlBottomInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -1089,30 +1060,43 @@
             this.pnlRightInfo.Size = new System.Drawing.Size(192, 662);
             this.pnlRightInfo.TabIndex = 63;
             // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label33.Location = new System.Drawing.Point(10, 49);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(68, 13);
+            this.label33.TabIndex = 4;
+            this.label33.Text = "Владелец:";
+            // 
             // label35
             // 
             this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label35.Location = new System.Drawing.Point(10, 89);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(56, 13);
+            this.label35.Size = new System.Drawing.Size(64, 13);
             this.label35.TabIndex = 3;
             this.label35.Text = "Прибыль:";
             // 
             // label34
             // 
             this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label34.Location = new System.Drawing.Point(10, 70);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(36, 13);
+            this.label34.Size = new System.Drawing.Size(41, 13);
             this.label34.TabIndex = 2;
             this.label34.Text = "Цена:";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label20.Location = new System.Drawing.Point(10, 24);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(60, 13);
+            this.label20.Size = new System.Drawing.Size(69, 13);
             this.label20.TabIndex = 0;
             this.label20.Text = "Название:";
             // 
@@ -1272,17 +1256,6 @@
             this.btnEndTurn.UseVisualStyleBackColor = true;
             this.btnEndTurn.Click += new System.EventHandler(this.btnEndTurn_Click);
             // 
-            // lblDice1
-            // 
-            this.lblDice1.AutoSize = true;
-            this.lblDice1.BackColor = System.Drawing.SystemColors.Control;
-            this.lblDice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblDice1.Location = new System.Drawing.Point(8, 19);
-            this.lblDice1.Name = "lblDice1";
-            this.lblDice1.Size = new System.Drawing.Size(67, 16);
-            this.lblDice1.TabIndex = 79;
-            this.lblDice1.Text = "Кубик: 0";
-            // 
             // lblCurrentPlayer
             // 
             this.lblCurrentPlayer.AutoSize = true;
@@ -1307,20 +1280,11 @@
             // 
             this.timerGame.Interval = 1000;
             // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(10, 49);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(59, 13);
-            this.label33.TabIndex = 4;
-            this.label33.Text = "Владелец:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1297, 829);
+            this.ClientSize = new System.Drawing.Size(1297, 749);
             this.Controls.Add(this.pnlBottomInfo);
             this.Controls.Add(this.lblMoney1);
             this.Controls.Add(this.lblCurrentPlayer);
@@ -1532,10 +1496,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button zalog;
-        private System.Windows.Forms.Panel homeP;
-        private System.Windows.Forms.Panel panel30;
-        private System.Windows.Forms.Panel panel31;
-        private System.Windows.Forms.Panel panel32;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label29;
