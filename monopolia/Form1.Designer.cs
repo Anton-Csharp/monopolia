@@ -110,7 +110,7 @@
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel32 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
+            this.homeP = new System.Windows.Forms.Panel();
             this.pnlToken4 = new System.Windows.Forms.Panel();
             this.pnlToken2 = new System.Windows.Forms.Panel();
             this.pnlToken3 = new System.Windows.Forms.Panel();
@@ -122,7 +122,6 @@
             this.pnlRightInfo = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.pnlPlayer1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -140,13 +139,11 @@
             this.btnRollDice = new System.Windows.Forms.Button();
             this.btnBuyProperty = new System.Windows.Forms.Button();
             this.btnEndTurn = new System.Windows.Forms.Button();
-            this.btnBuildHouse = new System.Windows.Forms.Button();
-            this.lblDiceResult = new System.Windows.Forms.Label();
             this.lblDice1 = new System.Windows.Forms.Label();
-            this.lblDice2 = new System.Windows.Forms.Label();
             this.lblCurrentPlayer = new System.Windows.Forms.Label();
             this.lblMoney1 = new System.Windows.Forms.Label();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
+            this.label33 = new System.Windows.Forms.Label();
             this.pnlGameBoard.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -194,6 +191,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.pnlTopInfo.SuspendLayout();
             this.pnlRightInfo.SuspendLayout();
             this.pnlPlayer1.SuspendLayout();
             this.pnlPlayer2.SuspendLayout();
@@ -264,7 +262,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Maroon;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(1, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(101, 28);
             this.pictureBox1.TabIndex = 0;
@@ -320,7 +318,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Green;
-            this.pictureBox15.Location = new System.Drawing.Point(0, 2);
+            this.pictureBox15.Location = new System.Drawing.Point(0, 1);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(101, 28);
             this.pictureBox15.TabIndex = 6;
@@ -423,7 +421,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Green;
-            this.pictureBox14.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox14.Location = new System.Drawing.Point(0, 0);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(101, 28);
             this.pictureBox14.TabIndex = 5;
@@ -819,8 +817,8 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
-            this.panel7.Controls.Add(this.pictureBox4);
             this.panel7.Controls.Add(this.label17);
+            this.panel7.Controls.Add(this.pictureBox4);
             this.panel7.Location = new System.Drawing.Point(5, 89);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(101, 74);
@@ -847,8 +845,8 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.Controls.Add(this.pictureBox8);
             this.panel6.Controls.Add(this.label16);
+            this.panel6.Controls.Add(this.pictureBox8);
             this.panel6.Location = new System.Drawing.Point(5, 170);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(101, 74);
@@ -857,7 +855,7 @@
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox8.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(101, 28);
             this.pictureBox8.TabIndex = 7;
@@ -875,8 +873,8 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
-            this.panel5.Controls.Add(this.pictureBox9);
             this.panel5.Controls.Add(this.label15);
+            this.panel5.Controls.Add(this.pictureBox9);
             this.panel5.Location = new System.Drawing.Point(5, 250);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(101, 74);
@@ -885,7 +883,7 @@
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox9.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox9.Location = new System.Drawing.Point(1, 0);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(101, 28);
             this.pictureBox9.TabIndex = 8;
@@ -960,10 +958,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.homeP);
             this.panel1.Controls.Add(this.panel30);
             this.panel1.Controls.Add(this.panel31);
             this.panel1.Controls.Add(this.panel32);
-            this.panel1.Controls.Add(this.panel29);
             this.panel1.Controls.Add(this.pnlToken4);
             this.panel1.Controls.Add(this.pnlToken2);
             this.panel1.Controls.Add(this.pnlToken3);
@@ -999,18 +997,18 @@
             this.panel32.Size = new System.Drawing.Size(15, 15);
             this.panel32.TabIndex = 52;
             // 
-            // panel29
+            // homeP
             // 
-            this.panel29.BackColor = System.Drawing.Color.White;
-            this.panel29.Location = new System.Drawing.Point(12, 8);
-            this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(15, 15);
-            this.panel29.TabIndex = 51;
+            this.homeP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.homeP.Location = new System.Drawing.Point(7, 8);
+            this.homeP.Name = "homeP";
+            this.homeP.Size = new System.Drawing.Size(15, 15);
+            this.homeP.TabIndex = 51;
             // 
             // pnlToken4
             // 
             this.pnlToken4.BackColor = System.Drawing.Color.Yellow;
-            this.pnlToken4.Location = new System.Drawing.Point(54, 34);
+            this.pnlToken4.Location = new System.Drawing.Point(73, 34);
             this.pnlToken4.Name = "pnlToken4";
             this.pnlToken4.Size = new System.Drawing.Size(15, 15);
             this.pnlToken4.TabIndex = 53;
@@ -1018,7 +1016,7 @@
             // pnlToken2
             // 
             this.pnlToken2.BackColor = System.Drawing.Color.Blue;
-            this.pnlToken2.Location = new System.Drawing.Point(73, 34);
+            this.pnlToken2.Location = new System.Drawing.Point(33, 34);
             this.pnlToken2.Name = "pnlToken2";
             this.pnlToken2.Size = new System.Drawing.Size(15, 15);
             this.pnlToken2.TabIndex = 51;
@@ -1026,7 +1024,7 @@
             // pnlToken3
             // 
             this.pnlToken3.BackColor = System.Drawing.Color.Green;
-            this.pnlToken3.Location = new System.Drawing.Point(33, 34);
+            this.pnlToken3.Location = new System.Drawing.Point(52, 34);
             this.pnlToken3.Name = "pnlToken3";
             this.pnlToken3.Size = new System.Drawing.Size(15, 15);
             this.pnlToken3.TabIndex = 52;
@@ -1054,6 +1052,7 @@
             // 
             this.pnlTopInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pnlTopInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlTopInfo.Controls.Add(this.lblDice1);
             this.pnlTopInfo.Location = new System.Drawing.Point(250, 0);
             this.pnlTopInfo.Name = "pnlTopInfo";
             this.pnlTopInfo.Size = new System.Drawing.Size(900, 100);
@@ -1081,9 +1080,9 @@
             // 
             this.pnlRightInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pnlRightInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlRightInfo.Controls.Add(this.label33);
             this.pnlRightInfo.Controls.Add(this.label35);
             this.pnlRightInfo.Controls.Add(this.label34);
-            this.pnlRightInfo.Controls.Add(this.label33);
             this.pnlRightInfo.Controls.Add(this.label20);
             this.pnlRightInfo.Location = new System.Drawing.Point(1123, 100);
             this.pnlRightInfo.Name = "pnlRightInfo";
@@ -1107,15 +1106,6 @@
             this.label34.Size = new System.Drawing.Size(36, 13);
             this.label34.TabIndex = 2;
             this.label34.Text = "Цена:";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(10, 49);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(79, 13);
-            this.label33.TabIndex = 1;
-            this.label33.Text = "Кол-во домов:";
             // 
             // label20
             // 
@@ -1282,45 +1272,16 @@
             this.btnEndTurn.UseVisualStyleBackColor = true;
             this.btnEndTurn.Click += new System.EventHandler(this.btnEndTurn_Click);
             // 
-            // btnBuildHouse
-            // 
-            this.btnBuildHouse.Location = new System.Drawing.Point(15, 720);
-            this.btnBuildHouse.Name = "btnBuildHouse";
-            this.btnBuildHouse.Size = new System.Drawing.Size(70, 25);
-            this.btnBuildHouse.TabIndex = 73;
-            this.btnBuildHouse.Text = "Дом";
-            this.btnBuildHouse.UseVisualStyleBackColor = true;
-            this.btnBuildHouse.Click += new System.EventHandler(this.btnBuildHouse_Click);
-            // 
-            // lblDiceResult
-            // 
-            this.lblDiceResult.AutoSize = true;
-            this.lblDiceResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.lblDiceResult.Location = new System.Drawing.Point(260, 20);
-            this.lblDiceResult.Name = "lblDiceResult";
-            this.lblDiceResult.Size = new System.Drawing.Size(118, 20);
-            this.lblDiceResult.TabIndex = 78;
-            this.lblDiceResult.Text = "Результат: 0";
-            // 
             // lblDice1
             // 
             this.lblDice1.AutoSize = true;
-            this.lblDice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblDice1.Location = new System.Drawing.Point(260, 50);
+            this.lblDice1.BackColor = System.Drawing.SystemColors.Control;
+            this.lblDice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblDice1.Location = new System.Drawing.Point(8, 19);
             this.lblDice1.Name = "lblDice1";
-            this.lblDice1.Size = new System.Drawing.Size(75, 17);
+            this.lblDice1.Size = new System.Drawing.Size(67, 16);
             this.lblDice1.TabIndex = 79;
-            this.lblDice1.Text = "Кубик 1: 0";
-            // 
-            // lblDice2
-            // 
-            this.lblDice2.AutoSize = true;
-            this.lblDice2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblDice2.Location = new System.Drawing.Point(260, 70);
-            this.lblDice2.Name = "lblDice2";
-            this.lblDice2.Size = new System.Drawing.Size(75, 17);
-            this.lblDice2.TabIndex = 80;
-            this.lblDice2.Text = "Кубик 2: 0";
+            this.lblDice1.Text = "Кубик: 0";
             // 
             // lblCurrentPlayer
             // 
@@ -1346,6 +1307,15 @@
             // 
             this.timerGame.Interval = 1000;
             // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(10, 49);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(59, 13);
+            this.label33.TabIndex = 4;
+            this.label33.Text = "Владелец:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1354,10 +1324,6 @@
             this.Controls.Add(this.pnlBottomInfo);
             this.Controls.Add(this.lblMoney1);
             this.Controls.Add(this.lblCurrentPlayer);
-            this.Controls.Add(this.lblDice2);
-            this.Controls.Add(this.lblDice1);
-            this.Controls.Add(this.lblDiceResult);
-            this.Controls.Add(this.btnBuildHouse);
             this.Controls.Add(this.btnEndTurn);
             this.Controls.Add(this.btnBuyProperty);
             this.Controls.Add(this.btnRollDice);
@@ -1447,6 +1413,8 @@
             this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.pnlTopInfo.ResumeLayout(false);
+            this.pnlTopInfo.PerformLayout();
             this.pnlRightInfo.ResumeLayout(false);
             this.pnlRightInfo.PerformLayout();
             this.pnlPlayer1.ResumeLayout(false);
@@ -1491,12 +1459,7 @@
         private System.Windows.Forms.Button btnRollDice;
         private System.Windows.Forms.Button btnBuyProperty;
         private System.Windows.Forms.Button btnEndTurn;
-        private System.Windows.Forms.Button btnBuildHouse;
-
-        // Метки
-        private System.Windows.Forms.Label lblDiceResult;
         private System.Windows.Forms.Label lblDice1;
-        private System.Windows.Forms.Label lblDice2;
         private System.Windows.Forms.Label lblCurrentPlayer;
         private System.Windows.Forms.Label lblMoney1;
         private System.Windows.Forms.Label lblMoney2;
@@ -1569,7 +1532,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button zalog;
-        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.Panel homeP;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel32;
@@ -1595,9 +1558,9 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label33;
     }
 }
 
