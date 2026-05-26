@@ -79,7 +79,11 @@ namespace monopolia
                 lblMoney4.Text = "Деньги: " + Players[3].Money;
             }
             label20.Text = "Название: " + GameField[Players[crpl].position].Name;
-            label33.Text = "Владелец: " + GameField[Players[crpl].position].Owner.Id + " игрок";
+            if (GameField[Players[crpl].position].Owner != null)
+            {
+                label33.Text = "Владелец: " + GameField[Players[crpl].position].Owner.Id + " игрок";
+            }
+           
             label34.Text = "Цена: " + GameField[Players[crpl].position].Price;
             label35.Text = "Прибыль: " + GameField[Players[crpl].position].Income;
 
@@ -101,8 +105,12 @@ namespace monopolia
             }
             if (GameField[Players[crpl].position].Owner != Players[crpl])
             {
-                GameField[Players[crpl].position].Owner.Money += GameField[Players[crpl].position].Income;
-                Players[crpl].Money -= GameField[Players[crpl].position].Income;
+                if (GameField[Players[crpl].position].Owner != null)
+                {
+                    GameField[Players[crpl].position].Owner.Money += GameField[Players[crpl].position].Income;
+                    Players[crpl].Money -= GameField[Players[crpl].position].Income;
+                }
+               
             }
             if (Players[crpl].position == GameField[2].Id)
             {

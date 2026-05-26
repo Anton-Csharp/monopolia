@@ -198,7 +198,7 @@
             // 
             // pnlGameBoard
             // 
-            this.pnlGameBoard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.pnlGameBoard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pnlGameBoard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlGameBoard.Controls.Add(this.panel2);
             this.pnlGameBoard.Controls.Add(this.panel17);
@@ -236,6 +236,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label12);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.ForeColor = System.Drawing.Color.Transparent;
@@ -267,6 +268,7 @@
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.White;
+            this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel17.Controls.Add(this.pictureBox12);
             this.panel17.Controls.Add(this.label25);
             this.panel17.Location = new System.Drawing.Point(754, 170);
@@ -295,6 +297,7 @@
             // panel23
             // 
             this.panel23.BackColor = System.Drawing.Color.White;
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel23.Controls.Add(this.label29);
             this.panel23.Controls.Add(this.pictureBox15);
             this.panel23.Location = new System.Drawing.Point(647, 579);
@@ -314,7 +317,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Green;
-            this.pictureBox15.Location = new System.Drawing.Point(0, 1);
+            this.pictureBox15.Location = new System.Drawing.Point(0, 0);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(101, 28);
             this.pictureBox15.TabIndex = 6;
@@ -323,6 +326,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.White;
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.pictureBox5);
             this.panel9.Controls.Add(this.label18);
             this.panel9.Location = new System.Drawing.Point(112, 9);
@@ -351,6 +355,7 @@
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.White;
+            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel24.Controls.Add(this.label6);
             this.panel24.Location = new System.Drawing.Point(540, 579);
             this.panel24.Name = "panel24";
@@ -370,6 +375,7 @@
             // panel28
             // 
             this.panel28.BackColor = System.Drawing.Color.White;
+            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel28.Controls.Add(this.label32);
             this.panel28.Controls.Add(this.pictureBox18);
             this.panel28.Location = new System.Drawing.Point(112, 579);
@@ -389,7 +395,7 @@
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.pictureBox18.Location = new System.Drawing.Point(3, 2);
+            this.pictureBox18.Location = new System.Drawing.Point(0, 1);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(101, 28);
             this.pictureBox18.TabIndex = 7;
@@ -398,6 +404,7 @@
             // panel25
             // 
             this.panel25.BackColor = System.Drawing.Color.White;
+            this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel25.Controls.Add(this.label30);
             this.panel25.Controls.Add(this.pictureBox14);
             this.panel25.Location = new System.Drawing.Point(433, 579);
@@ -426,6 +433,7 @@
             // panel26
             // 
             this.panel26.BackColor = System.Drawing.Color.White;
+            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel26.Controls.Add(this.label36);
             this.panel26.Controls.Add(this.label10);
             this.panel26.Location = new System.Drawing.Point(326, 579);
@@ -455,6 +463,7 @@
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.White;
+            this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel27.Controls.Add(this.label31);
             this.panel27.Controls.Add(this.pictureBox6);
             this.panel27.Location = new System.Drawing.Point(219, 579);
@@ -474,7 +483,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 2);
+            this.pictureBox6.Location = new System.Drawing.Point(-1, 1);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(101, 28);
             this.pictureBox6.TabIndex = 6;
@@ -483,6 +492,7 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.White;
+            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel16.Controls.Add(this.label24);
             this.panel16.Controls.Add(this.pictureBox13);
             this.panel16.Location = new System.Drawing.Point(754, 89);
@@ -511,6 +521,7 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.White;
+            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel15.Controls.Add(this.lblFreeParking);
             this.panel15.Location = new System.Drawing.Point(754, 9);
             this.panel15.Name = "panel15";
@@ -530,6 +541,7 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.White;
+            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Controls.Add(this.label23);
             this.panel14.Controls.Add(this.pictureBox10);
             this.panel14.Location = new System.Drawing.Point(647, 9);
@@ -558,6 +570,7 @@
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.Color.White;
+            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel18.Controls.Add(this.pictureBox11);
             this.panel18.Controls.Add(this.label26);
             this.panel18.Location = new System.Drawing.Point(754, 250);
@@ -586,6 +599,7 @@
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.White;
+            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel19.Controls.Add(this.label13);
             this.panel19.Controls.Add(this.label11);
             this.panel19.Location = new System.Drawing.Point(754, 330);
@@ -615,6 +629,7 @@
             // panel20
             // 
             this.panel20.BackColor = System.Drawing.Color.White;
+            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel20.Controls.Add(this.pictureBox17);
             this.panel20.Controls.Add(this.label27);
             this.panel20.Location = new System.Drawing.Point(754, 410);
@@ -625,7 +640,7 @@
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox17.Location = new System.Drawing.Point(0, 3);
+            this.pictureBox17.Location = new System.Drawing.Point(0, -1);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(101, 28);
             this.pictureBox17.TabIndex = 8;
@@ -643,6 +658,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.White;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.label5);
             this.panel10.Location = new System.Drawing.Point(219, 9);
             this.panel10.Name = "panel10";
@@ -662,6 +678,7 @@
             // panel21
             // 
             this.panel21.BackColor = System.Drawing.Color.White;
+            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel21.Controls.Add(this.pictureBox16);
             this.panel21.Controls.Add(this.label28);
             this.panel21.Location = new System.Drawing.Point(754, 495);
@@ -690,6 +707,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.White;
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Controls.Add(this.pictureBox7);
             this.panel11.Controls.Add(this.label19);
             this.panel11.Location = new System.Drawing.Point(326, 9);
@@ -718,6 +736,7 @@
             // panel22
             // 
             this.panel22.BackColor = System.Drawing.Color.White;
+            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel22.Controls.Add(this.lblGoToJail);
             this.panel22.Location = new System.Drawing.Point(754, 579);
             this.panel22.Name = "panel22";
@@ -737,6 +756,7 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.White;
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel12.Controls.Add(this.label9);
             this.panel12.Controls.Add(this.label21);
             this.panel12.Location = new System.Drawing.Point(433, 9);
@@ -766,6 +786,7 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.White;
+            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel13.Controls.Add(this.pictureBox3);
             this.panel13.Controls.Add(this.label22);
             this.panel13.Location = new System.Drawing.Point(540, 9);
@@ -794,6 +815,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.White;
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.lblJail);
             this.panel8.Location = new System.Drawing.Point(5, 9);
             this.panel8.Name = "panel8";
@@ -813,6 +835,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label17);
             this.panel7.Controls.Add(this.pictureBox4);
             this.panel7.Location = new System.Drawing.Point(5, 89);
@@ -841,6 +864,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label16);
             this.panel6.Controls.Add(this.pictureBox8);
             this.panel6.Location = new System.Drawing.Point(5, 170);
@@ -869,6 +893,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label15);
             this.panel5.Controls.Add(this.pictureBox9);
             this.panel5.Location = new System.Drawing.Point(5, 250);
@@ -897,6 +922,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.label14);
             this.panel4.Location = new System.Drawing.Point(5, 330);
@@ -925,6 +951,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.label7);
             this.panel3.Location = new System.Drawing.Point(5, 410);
@@ -954,6 +981,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.pnlToken4);
             this.panel1.Controls.Add(this.pnlToken2);
             this.panel1.Controls.Add(this.pnlToken3);
@@ -1010,18 +1038,18 @@
             // 
             // pnlTopInfo
             // 
-            this.pnlTopInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlTopInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pnlTopInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlTopInfo.Controls.Add(this.lblDice1);
             this.pnlTopInfo.Location = new System.Drawing.Point(250, 0);
             this.pnlTopInfo.Name = "pnlTopInfo";
-            this.pnlTopInfo.Size = new System.Drawing.Size(900, 100);
+            this.pnlTopInfo.Size = new System.Drawing.Size(866, 100);
             this.pnlTopInfo.TabIndex = 60;
             // 
             // lblDice1
             // 
             this.lblDice1.AutoSize = true;
-            this.lblDice1.BackColor = System.Drawing.SystemColors.Control;
+            this.lblDice1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblDice1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblDice1.Location = new System.Drawing.Point(8, 19);
             this.lblDice1.Name = "lblDice1";
@@ -1031,25 +1059,25 @@
             // 
             // pnlBottomInfo
             // 
-            this.pnlBottomInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlBottomInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pnlBottomInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlBottomInfo.Location = new System.Drawing.Point(256, 768);
+            this.pnlBottomInfo.Location = new System.Drawing.Point(256, 764);
             this.pnlBottomInfo.Name = "pnlBottomInfo";
             this.pnlBottomInfo.Size = new System.Drawing.Size(888, 100);
             this.pnlBottomInfo.TabIndex = 61;
             // 
             // pnlLeftInfo
             // 
-            this.pnlLeftInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlLeftInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pnlLeftInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlLeftInfo.Location = new System.Drawing.Point(0, 100);
+            this.pnlLeftInfo.Location = new System.Drawing.Point(0, 0);
             this.pnlLeftInfo.Name = "pnlLeftInfo";
-            this.pnlLeftInfo.Size = new System.Drawing.Size(250, 668);
+            this.pnlLeftInfo.Size = new System.Drawing.Size(250, 681);
             this.pnlLeftInfo.TabIndex = 62;
             // 
             // pnlRightInfo
             // 
-            this.pnlRightInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pnlRightInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.pnlRightInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlRightInfo.Controls.Add(this.label33);
             this.pnlRightInfo.Controls.Add(this.label35);
@@ -1105,9 +1133,9 @@
             this.pnlPlayer1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.pnlPlayer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlPlayer1.Controls.Add(this.label1);
-            this.pnlPlayer1.Location = new System.Drawing.Point(10, 110);
+            this.pnlPlayer1.Location = new System.Drawing.Point(10, 10);
             this.pnlPlayer1.Name = "pnlPlayer1";
-            this.pnlPlayer1.Size = new System.Drawing.Size(230, 120);
+            this.pnlPlayer1.Size = new System.Drawing.Size(230, 133);
             this.pnlPlayer1.TabIndex = 64;
             // 
             // label1
@@ -1125,9 +1153,9 @@
             this.pnlPlayer2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlPlayer2.Controls.Add(this.label4);
             this.pnlPlayer2.Controls.Add(this.lblMoney2);
-            this.pnlPlayer2.Location = new System.Drawing.Point(10, 240);
+            this.pnlPlayer2.Location = new System.Drawing.Point(10, 140);
             this.pnlPlayer2.Name = "pnlPlayer2";
-            this.pnlPlayer2.Size = new System.Drawing.Size(230, 120);
+            this.pnlPlayer2.Size = new System.Drawing.Size(230, 133);
             this.pnlPlayer2.TabIndex = 65;
             // 
             // label4
@@ -1154,9 +1182,9 @@
             this.pnlPlayer3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlPlayer3.Controls.Add(this.label3);
             this.pnlPlayer3.Controls.Add(this.lblMoney3);
-            this.pnlPlayer3.Location = new System.Drawing.Point(10, 370);
+            this.pnlPlayer3.Location = new System.Drawing.Point(10, 270);
             this.pnlPlayer3.Name = "pnlPlayer3";
-            this.pnlPlayer3.Size = new System.Drawing.Size(230, 120);
+            this.pnlPlayer3.Size = new System.Drawing.Size(230, 133);
             this.pnlPlayer3.TabIndex = 66;
             // 
             // label3
@@ -1183,9 +1211,9 @@
             this.pnlPlayer4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlPlayer4.Controls.Add(this.label2);
             this.pnlPlayer4.Controls.Add(this.lblMoney4);
-            this.pnlPlayer4.Location = new System.Drawing.Point(10, 500);
+            this.pnlPlayer4.Location = new System.Drawing.Point(10, 400);
             this.pnlPlayer4.Name = "pnlPlayer4";
-            this.pnlPlayer4.Size = new System.Drawing.Size(230, 120);
+            this.pnlPlayer4.Size = new System.Drawing.Size(230, 133);
             this.pnlPlayer4.TabIndex = 67;
             // 
             // label2
@@ -1211,16 +1239,19 @@
             this.pnlControls.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.pnlControls.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlControls.Controls.Add(this.zalog);
-            this.pnlControls.Location = new System.Drawing.Point(10, 630);
+            this.pnlControls.Controls.Add(this.btnEndTurn);
+            this.pnlControls.Controls.Add(this.btnRollDice);
+            this.pnlControls.Controls.Add(this.btnBuyProperty);
+            this.pnlControls.Location = new System.Drawing.Point(10, 530);
             this.pnlControls.Name = "pnlControls";
-            this.pnlControls.Size = new System.Drawing.Size(230, 132);
+            this.pnlControls.Size = new System.Drawing.Size(230, 145);
             this.pnlControls.TabIndex = 68;
             // 
             // zalog
             // 
-            this.zalog.Location = new System.Drawing.Point(119, 49);
+            this.zalog.Location = new System.Drawing.Point(119, 27);
             this.zalog.Name = "zalog";
-            this.zalog.Size = new System.Drawing.Size(105, 30);
+            this.zalog.Size = new System.Drawing.Size(105, 49);
             this.zalog.TabIndex = 83;
             this.zalog.Text = "Залог";
             this.zalog.UseVisualStyleBackColor = true;
@@ -1228,9 +1259,9 @@
             // 
             // btnRollDice
             // 
-            this.btnRollDice.Location = new System.Drawing.Point(15, 640);
+            this.btnRollDice.Location = new System.Drawing.Point(3, 27);
             this.btnRollDice.Name = "btnRollDice";
-            this.btnRollDice.Size = new System.Drawing.Size(105, 30);
+            this.btnRollDice.Size = new System.Drawing.Size(105, 49);
             this.btnRollDice.TabIndex = 69;
             this.btnRollDice.Text = "Бросить кубик";
             this.btnRollDice.UseVisualStyleBackColor = true;
@@ -1238,9 +1269,9 @@
             // 
             // btnBuyProperty
             // 
-            this.btnBuyProperty.Location = new System.Drawing.Point(130, 640);
+            this.btnBuyProperty.Location = new System.Drawing.Point(119, 85);
             this.btnBuyProperty.Name = "btnBuyProperty";
-            this.btnBuyProperty.Size = new System.Drawing.Size(105, 30);
+            this.btnBuyProperty.Size = new System.Drawing.Size(105, 49);
             this.btnBuyProperty.TabIndex = 70;
             this.btnBuyProperty.Text = "Купить";
             this.btnBuyProperty.UseVisualStyleBackColor = true;
@@ -1248,9 +1279,9 @@
             // 
             // btnEndTurn
             // 
-            this.btnEndTurn.Location = new System.Drawing.Point(15, 680);
+            this.btnEndTurn.Location = new System.Drawing.Point(3, 85);
             this.btnEndTurn.Name = "btnEndTurn";
-            this.btnEndTurn.Size = new System.Drawing.Size(105, 30);
+            this.btnEndTurn.Size = new System.Drawing.Size(105, 49);
             this.btnEndTurn.TabIndex = 71;
             this.btnEndTurn.Text = "Завершить ход";
             this.btnEndTurn.UseVisualStyleBackColor = true;
@@ -1259,6 +1290,7 @@
             // lblCurrentPlayer
             // 
             this.lblCurrentPlayer.AutoSize = true;
+            this.lblCurrentPlayer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.lblCurrentPlayer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.lblCurrentPlayer.Location = new System.Drawing.Point(400, 20);
             this.lblCurrentPlayer.Name = "lblCurrentPlayer";
@@ -1270,7 +1302,7 @@
             // 
             this.lblMoney1.AutoSize = true;
             this.lblMoney1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.lblMoney1.Location = new System.Drawing.Point(15, 150);
+            this.lblMoney1.Location = new System.Drawing.Point(15, 50);
             this.lblMoney1.Name = "lblMoney1";
             this.lblMoney1.Size = new System.Drawing.Size(81, 13);
             this.lblMoney1.TabIndex = 82;
@@ -1284,13 +1316,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1297, 749);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(1274, 820);
             this.Controls.Add(this.pnlBottomInfo);
             this.Controls.Add(this.lblMoney1);
             this.Controls.Add(this.lblCurrentPlayer);
-            this.Controls.Add(this.btnEndTurn);
-            this.Controls.Add(this.btnBuyProperty);
-            this.Controls.Add(this.btnRollDice);
             this.Controls.Add(this.pnlControls);
             this.Controls.Add(this.pnlPlayer4);
             this.Controls.Add(this.pnlPlayer3);
