@@ -72,7 +72,7 @@ namespace monopolia
             if (Players[crpl].position >= 27)
             {
                 Players[crpl].position -= 27;
-                Players[crpl].Money += 2000;
+                Players[crpl].Money += 20000;
                 lblMoney1.Text = "Деньги: " + Players[0].Money;
                 lblMoney2.Text = "Деньги: " + Players[1].Money;
                 lblMoney3.Text = "Деньги: " + Players[2].Money;
