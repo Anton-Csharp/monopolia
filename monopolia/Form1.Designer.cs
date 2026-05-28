@@ -772,9 +772,9 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
             this.label9.Location = new System.Drawing.Point(12, 9);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(87, 13);
+            this.label9.Size = new System.Drawing.Size(74, 13);
             this.label9.TabIndex = 105;
-            this.label9.Text = "АЭРОПОРТ✈";
+            this.label9.Text = "АЭРОПОРТ";
             // 
             // label21
             // 
