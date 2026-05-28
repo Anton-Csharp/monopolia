@@ -28,34 +28,34 @@ namespace monopolia
             Players.Add(new player(2, 15000, 0, pnlToken2, pl2));
             Players.Add(new player(3, 15000, 0, pnlToken3, pl3));
             Players.Add(new player(3, 15000, 0, pnlToken4, pl4));
-            GameField.Add(new field(0, null, panel1, "Старт", 0, "start", 0));
-            GameField.Add(new field(1, null, panel2, "Санкт-Петербург",  400, "brown", 250));
-            GameField.Add(new field(2, null, panel3, "НАЛОГ",  0, "налог", 0));
-            GameField.Add(new field(3, null, panel4, "Красноярск", 600, "brown", 350));
-            GameField.Add(new field(4, null, panel5, "Самара", 900, "pink", 400));
-            GameField.Add(new field(5, null, panel6, "Чебоксары"  ,   1100, "pink", 450));
-            GameField.Add(new field(6, null, panel7, "Пенза", 1200, "pink", 500));
-            GameField.Add(new field(7, null, panel8, "ТЮРЬМА", 0, "jail", 0));
-            GameField.Add(new field(8, null, panel9, "Челябинск", 1300, "blue", 550));
-            GameField.Add(new field(9, null, panel10, "ШАНС", 0, "шанс", 0));
-            GameField.Add(new field(10, null, panel11, "Барнаул", 1500, "blue", 600));
-            GameField.Add(new field(11, null, panel12, "Пулково", 2000, "аэропорт", 700));
-            GameField.Add(new field(12, null, panel13, "Воронеж", 1700, "chocolate", 800));
-            GameField.Add(new field(13, null, panel14, "Сыктывкар", 1800, "chocolate", 850));
-            GameField.Add(new field(14, null, panel15, "БЕСПЛ. ПАРКОВКА", 0, "парковка", 0));
-            GameField.Add(new field(15, null, panel16, "Москва", 2000, "red", 950));
-            GameField.Add(new field(16, null, panel17, "Рязань", 2200, "red", 1000));
-            GameField.Add(new field(17, null, panel18, "Архангельск", 2400, "red", 1100));
-            GameField.Add(new field(18, null, panel19, "Кольцово", 2000, "аэропорт", 1150));
-            GameField.Add(new field(19, null, panel20, "Обнинск", 2500, "yellow", 1200));
-            GameField.Add(new field(20, null, panel21, "Новосибирск", 2800, "yellow", 1300));
-            GameField.Add(new field(21, null, panel22, "В ТЮРЬМУ", 0, "jail", 0));
-            GameField.Add(new field(22, null, panel23, "Курган", 3100, "green", 1550));
-            GameField.Add(new field(23, null, panel24, "ШАНС", 0, "шанс", 0));
-            GameField.Add(new field(24, null, panel25, "Сургут", 3400, "green", 1650));
-            GameField.Add(new field(25, null, panel26, "Шереметьево", 2000, "аэропорт", 2000));
-            GameField.Add(new field(26, null, panel27, "Пермь"  , 4000, "dark blue", 2400));
-            GameField.Add(new field(27, null, panel28, "Екатеринбург",  4400, "dark blue", 2500));
+            GameField.Add(new field(0, null, panel1,0,1000, "Старт", 0, "start", 0));
+            GameField.Add(new field(1, null, panel2,0, 1000, "Санкт-Петербург",  400, "brown", 250));
+            GameField.Add(new field(2, null, panel3,0, 1000, "НАЛОГ",  0, "налог", 0));
+            GameField.Add(new field(3, null, panel4,0, 1000, "Красноярск", 600, "brown", 350));
+            GameField.Add(new field(4, null, panel5,0, 1000, "Самара", 900, "pink", 400));
+            GameField.Add(new field(5, null, panel6,0, 1000, "Чебоксары"  ,   1100, "pink", 450));
+            GameField.Add(new field(6, null, panel7, 0,1000, "Пенза", 1200, "pink", 500));
+            GameField.Add(new field(7, null, panel8, 0,         1000, "ТЮРЬМА", 0, "jail", 0));
+            GameField.Add(new field(8, null, panel9, 0,1000, "Челябинск", 1300, "blue", 550));
+            GameField.Add(new field(9, null, panel10, 0, 1000, "ШАНС", 0, "шанс", 0));
+            GameField.Add(new field(10, null, panel11, 0, 1000, "Барнаул", 1500, "blue", 600));
+            GameField.Add(new field(11, null, panel12, 0,1000, "Пулково", 2000, "аэропорт", 700));
+            GameField.Add(new field(12, null, panel13, 0,1000, "Воронеж", 1700, "chocolate", 800));
+            GameField.Add(new field(13, null, panel14,0, 1000, "Сыктывкар", 1800, "chocolate", 850));
+            GameField.Add(new field(14, null, panel15,0, 1000, "БЕСПЛ. ПАРКОВКА", 0, "парковка", 0));
+            GameField.Add(new field(15, null, panel16,0, 1000, "Москва", 2000, "red", 950));
+            GameField.Add(new field(16, null, panel17,0, 1000, "Рязань", 2200, "red", 1000));
+            GameField.Add(new field(17, null, panel18, 0,1000, "Архангельск", 2400, "red", 1100));
+            GameField.Add(new field(18, null, panel19,0, 1000, "Кольцово", 2000, "аэропорт", 1150));
+            GameField.Add(new field(19, null, panel20,0, 1000, "Обнинск", 2500, "yellow", 1200));
+            GameField.Add(new field(20, null, panel21,0, 1000, "Новосибирск", 2800, "yellow", 1300));
+            GameField.Add(new field(21, null, panel22,0, 1000, "В ТЮРЬМУ", 0, "jail", 0));
+            GameField.Add(new field(22, null, panel23,0, 1000, "Курган", 3100, "green", 1550));
+            GameField.Add(new field(23, null, panel24,0, 1000, "ШАНС", 0, "шанс", 0));
+            GameField.Add(new field(24, null, panel25,0, 1000, "Сургут", 3400, "green", 1650));
+            GameField.Add(new field(25, null, panel26,0, 1000, "Шереметьево", 2000, "аэропорт", 2000));
+            GameField.Add(new field(26, null, panel27,0, 1000, "Пермь"  , 4000, "dark blue", 2400));
+            GameField.Add(new field(27, null, panel28, 0,1000, "Екатеринбург",  4400, "dark blue", 2500));
 
 
 
@@ -86,6 +86,7 @@ namespace monopolia
            
             label34.Text = "Цена: " + GameField[Players[crpl].position].Price;
             label35.Text = "Прибыль: " + GameField[Players[crpl].position].Income;
+
 
             if (currentPlayer == 1)
             {
@@ -271,6 +272,11 @@ namespace monopolia
                 MessageBox.Show($"Игра окончена! Победитель: {winners[0].Id}!", "Конец игры",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
