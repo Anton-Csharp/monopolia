@@ -72,7 +72,7 @@ namespace monopolia
             if (Players[crpl].position >= 27)
             {
                 Players[crpl].position -= 27;
-                Players[crpl].Money += 20000;
+                Players[crpl].Money += 2000;
                 lblMoney1.Text = "Деньги: " + Players[0].Money;
                 lblMoney2.Text = "Деньги: " + Players[1].Money;
                 lblMoney3.Text = "Деньги: " + Players[2].Money;
@@ -86,6 +86,7 @@ namespace monopolia
            
             label34.Text = "Цена: " + GameField[Players[crpl].position].Price;
             label35.Text = "Прибыль: " + GameField[Players[crpl].position].Income;
+            label37.Text = "Кол-во домов: " + GameField[Players[crpl].position].Homes;
 
 
             if (currentPlayer == 1)
@@ -108,8 +109,8 @@ namespace monopolia
             {
                 if (GameField[Players[crpl].position].Owner != null)
                 {
-                    GameField[Players[crpl].position].Owner.Money += GameField[Players[crpl].position].Income;
-                    Players[crpl].Money -= GameField[Players[crpl].position].Income;
+                    GameField[Players[crpl].position].Owner.Money += GameField[Players[crpl].position].Income + 500 * GameField[Players[crpl].position].Homes;
+                    Players[crpl].Money -= GameField[Players[crpl].position].Income+ 500 * GameField[Players[crpl].position].Homes;
                 }
                
             }
@@ -191,6 +192,7 @@ namespace monopolia
                         break;
                 }
             }
+           
 
             
             EndGame();
@@ -276,7 +278,19 @@ namespace monopolia
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            int crpl = currentPlayer--;
+            if (GameField[Players[crpl].position].Owner == Players[crpl])
+            {
+                if (GameField[Players[crpl].position].Homes == 4)
+                {
+                    MessageBox.Show("Вы купили макс колво домов");
+                }
+                else
+                {
+                    GameField[Players[crpl].position].Homes++;
+                    Players[crpl].Money -= 1000;
+                }
+            }
         }
     }
 }

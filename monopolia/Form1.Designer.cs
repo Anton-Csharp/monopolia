@@ -117,6 +117,7 @@
             this.pnlBottomInfo = new System.Windows.Forms.Panel();
             this.pnlLeftInfo = new System.Windows.Forms.Panel();
             this.pnlRightInfo = new System.Windows.Forms.Panel();
+            this.label37 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -133,6 +134,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblMoney4 = new System.Windows.Forms.Label();
             this.pnlControls = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.zalog = new System.Windows.Forms.Button();
             this.btnEndTurn = new System.Windows.Forms.Button();
             this.btnRollDice = new System.Windows.Forms.Button();
@@ -140,8 +142,6 @@
             this.lblCurrentPlayer = new System.Windows.Forms.Label();
             this.lblMoney1 = new System.Windows.Forms.Label();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.label37 = new System.Windows.Forms.Label();
             this.pnlGameBoard.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -772,9 +772,9 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold);
             this.label9.Location = new System.Drawing.Point(12, 9);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(74, 13);
+            this.label9.Size = new System.Drawing.Size(87, 13);
             this.label9.TabIndex = 105;
-            this.label9.Text = "АЭРОПОРТ";
+            this.label9.Text = "АЭРОПОРТ✈";
             // 
             // label21
             // 
@@ -1091,6 +1091,16 @@
             this.pnlRightInfo.Size = new System.Drawing.Size(274, 662);
             this.pnlRightInfo.TabIndex = 63;
             // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label37.Location = new System.Drawing.Point(11, 108);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(92, 13);
+            this.label37.TabIndex = 5;
+            this.label37.Text = "Кол-во домов:";
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -1251,6 +1261,16 @@
             this.pnlControls.Size = new System.Drawing.Size(230, 180);
             this.pnlControls.TabIndex = 68;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(61, 129);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(105, 44);
+            this.button1.TabIndex = 84;
+            this.button1.Text = "Дом";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // zalog
             // 
             this.zalog.Location = new System.Drawing.Point(119, 8);
@@ -1316,32 +1336,12 @@
             // 
             this.timerGame.Interval = 1000;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(61, 129);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 44);
-            this.button1.TabIndex = 84;
-            this.button1.Text = "Дом";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label37.Location = new System.Drawing.Point(11, 108);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(92, 13);
-            this.label37.TabIndex = 5;
-            this.label37.Text = "Кол-во домов:";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1316, 859);
+            this.ClientSize = new System.Drawing.Size(1316, 840);
             this.Controls.Add(this.pnlBottomInfo);
             this.Controls.Add(this.lblMoney1);
             this.Controls.Add(this.lblCurrentPlayer);
